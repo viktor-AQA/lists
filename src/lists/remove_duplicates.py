@@ -5,8 +5,8 @@ def remove_duplicates(lst):
             final_list.append(i)
         else:
             continue
-    print(final_list)
+    return final_list
 
-remove_duplicates([1, 2, 2, 3, 4, 4])  # [1, 2, 3, 4]
-
+final_list = remove_duplicates([1, 2, 2, 3, 4, 4])  # [1, 2, 3, 4]
+print(remove_duplicates([1, 2, 2, 3, 4, 4]))
 

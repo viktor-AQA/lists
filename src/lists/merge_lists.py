@@ -7,7 +7,7 @@ def merge_lists(list1, list2):
             list_final.append(i)
         else:
             continue
-    print(list_final)
+    return list_final
 
-
-merge_lists([1, 2, 3], [3, 4, 5])  # [1, 2, 3, 4, 5]
+list_final = merge_lists([1, 2, 3], [3, 4, 5])
+print(merge_lists([1, 2, 3], [3, 4, 5]))  # [1, 2, 3, 4, 5]

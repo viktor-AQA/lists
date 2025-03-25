@@ -4,6 +4,7 @@ def generate_squares(n):
     while i <= n:
         results.append(i ** 2)
         i += 1
-    print(results)
+    return results
 
-generate_squares(5)
+results = generate_squares(5)
+print(generate_squares(5))
